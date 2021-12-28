@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подарунок</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header__title">Сайт для Насті</h1>
+        <p class="header__me">Я вирішив зробити тобі квест</p>
+        <p class="header__text">У цьому сайті буде схованa перша підказка, за нею ти зможеш знайти свій подаунок</p>
+    </div>
+    <div class="main">
+        <h2 class="main__title">Кроссворд</h2>
+        <div class="cross">
+            <img class="cross__img" src="img/Screenshot_1-removebg-preview (1).png">
+            <p class="cross__p"> 1. Що я люблю дивитись - <br><input id="elem1" placeholder="Відповідь:" class="cross__input"><input id="butt1" type="button" value="Перевірити"/><p id="answer1" class="cross__answer"></p></p>
+            <p class="cross__p"> 2. Як я люблю, щоб мене називали - <br><input id="elem2" placeholder="Відповідь:" class="cross__input"><input id="butt2" type="button" value="Перевірити"/><p id="answer2" class="cross__answer"></p>
+            <p class="cross__p"> 3. Що я не люблю робити - <br><input id="elem3" placeholder="Відповідь:" class="cross__input"><input id="butt3" type="button" value="Перевірити"/><p id="answer3" class="cross__answer"></p>
+            <p class="cross__p"> 4. Наш девіз 4 слова: "Нехай горить наша - <br><input id="elem4" placeholder="Відповідь:" class="cross__input"><input id="butt4" type="button" value="Перевірити"/><p id="answer4" class="cross__answer"></p>
+            <p class="cross__p"> 5. Як звати мого тата - <br><input id="elem5" placeholder="Відповідь:" class="cross__input"><input id="butt5" type="button" value="Перевірити"/><p id="answer5" class="cross__answer"></p>
+            <p class="cross__p"> 6. Куди ми нещадавно ходили - <br><input id="elem6" placeholder="Відповідь:" class="cross__input"><input id="butt6" type="button" value="Перевірити"/><p id="answer6" class="cross__answer"></p>
+            <p id="end" class="cross__end">Підказка: Перші букви (2,4,6,5,1,3)</p>
+        </div>
+    </div>
+</body>
+<script src="./js/cross.js"></script>
+</html>
